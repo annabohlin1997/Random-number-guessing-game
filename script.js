@@ -1,13 +1,10 @@
-	// random value generated
-	let randomNumber = Math.floor(Math.random() * 10 + 1);
+let randomNumber = Math.floor(Math.random() * 10 + 1);
 	
-	// counting the number of guesses
-	// made for correct Guess
-	var guesses = 1;
+let guesses = 1;
 	
-	document.getElementById("submitGuess").onclick = function(){
+document.getElementById("submitGuess").onclick = function(){
 	
-var guessedNumber = document.getElementById("guessField").value;
+let guessedNumber = document.getElementById("guessField").value;
 
 if(randomNumber == guessedNumber)
 {	
