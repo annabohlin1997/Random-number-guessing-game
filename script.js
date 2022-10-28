@@ -6,7 +6,7 @@ document.getElementById("submitGuess").onclick = function(){
 	
 let guessedNumber = document.getElementById("guessField").value;
 
-if(randomNumber === guessedNumber)
+if(randomNumber == guessedNumber)
 {	
 	alert("CONGRATULATIONS!!! YOU GUESSED IT RIGHT IN "
 			+ guesses + " GUESSES ");
